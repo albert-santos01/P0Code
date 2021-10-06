@@ -16,4 +16,8 @@ public class Airline {
     public void setBankAccount( Integer newbankacc){
         bankAccount= newbankacc;    
     }
+    public void fusionAirlines(Airline bitch){
+        name= name + " & " + bitch.name;
+        bankAccount= bankAccount+ bitch.bankAccount;
+    }
 }
